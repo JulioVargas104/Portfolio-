@@ -80,11 +80,6 @@ body {
         flex-direction: column;
     }
 
-    .presentacion__imagen,
-    .presentacion__imagenAbout {
-        width: 100%;
-    }
-
     .presentacion__contenido__texto {
         font-size: 1rem;
         text-align: left;
@@ -98,6 +93,11 @@ body {
 
     .footer {
         font-size: 0.7rem;
+    }
+    .presentacion__imagen,
+    .presentacion__imagenAbout {
+        width: 70% !important;
+        border-radius: 10px !important; 
     }
 }
 
@@ -127,13 +127,12 @@ body {
     background-color: var(--color-hover);
 }
 
-.presentacion__imagen {
-    width: 40%;
-    border-radius: 44px;
-}
-
+.presentacion__imagen,
 .presentacion__imagenAbout {
     width: 40%;
+    border-radius: 44px; 
+}
+.presentacion__imagenAbout {
     border-radius: 10px;
 }
 
