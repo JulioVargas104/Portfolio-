@@ -96,7 +96,7 @@ body {
     }
     .presentacion__imagen,
     .presentacion__imagenAbout {
-        width: 70% !important;
+        width: 75% !important;
         border-radius: 10px !important; 
     }
 }
