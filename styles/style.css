@@ -122,6 +122,12 @@ body {
     color: var(--color-secundaria);
     font-family: var(--fuente-montserrat);
 }
+.presentacion__CV{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
 
 .presentacion__enlaces__link:hover {
     background-color: var(--color-hover);
@@ -162,5 +168,12 @@ body {
 
     .presentacion__contenido {
         width: auto;
+    }
+    .presentacion__CV{
+        flex-direction: column;
+        gap: 10px;;
+    }
+    .presentacion__enlaces__link {
+        width: 100%;
     }
 }
